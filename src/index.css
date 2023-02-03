@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'RobotoSlabRegular', 'sans-serif';
+    src: url("../public/fonts/RobotoSlab-Regular.ttf");
+}
+@font-face {
+    font-family: 'RobotoSlabThin', 'sans-serif';
+    src: url("../public/fonts/RobotoSlab-Thin.ttf");
+}
+@font-face {
+    font-family: 'RobotoSlabLight', 'sans-serif';
+    src: url("../public/fonts/RobotoSlab-Light.ttf");
+}
+@font-face {
+    font-family: 'RobotoSlabBold', 'sans-serif';
+    src: url("../public/fonts/RobotoSlab-Bold.ttf");
+}
+@font-face {
+    font-family: 'LeagueSpartanBold', 'sans-serif';
+    src: url("../public/fonts/LeagueSpartan-Bold.otf");
+}
+@font-face {
+    font-family: 'LibraSans', 'sans-serif';
+    src: url("../public/fonts/LibraSans.ttf");
+}
+@font-face {
+    font-family: 'LibraSansBold', 'sans-serif';
+    src: url("../public/fonts/LibraSans-Bold.ttf");
+}
+@font-face {
+    font-family: 'LibraSansBoldItalic', 'sans-serif';
+    src: url("../public/fonts/LibraSans-BoldItalic.ttf");
+}
+@font-face {
+    font-family: 'LibraSansItalic', 'sans-serif';
+    src: url("../public/fonts/LibraSans-Italic.ttf");
+}

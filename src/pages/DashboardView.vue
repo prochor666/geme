@@ -260,7 +260,11 @@
                                             type="file"
                                             class="hidden"
                                             accept="image/png,image/jpg,image/jpeg"
-
+                                            @change="
+                                                dropFileFromEditorInput(
+                                                    gemeData,
+                                                )
+                                            "
                                         />
                                     </label>
                                 </div>
@@ -442,7 +446,7 @@
                             type="file"
                             class="hidden"
                             accept="image/png,image/jpg,image/jpeg"
-                            @change="dropFileFromInput(gemeData)"
+                            @change="dropFileFromInput()"
                         />
                     </label>
                 </div>
@@ -458,6 +462,7 @@ import {
     dropFileFromInput,
     insertImageFromStorage,
 } from '../composables/useImage';
+import { dropFileFromEditorInput } from '../composables/useAddImage';
 import { fonts } from '../composables/useFonts';
 import Headify from '../components/HeadifyComponent.vue';
 import { ColorPicker } from 'vue3-colorpicker';

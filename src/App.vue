@@ -26,13 +26,8 @@
 </template>
 
 <script setup>
-import { ref } from 'vue';
 import Spinner from './components/SpinnerComponent.vue';
 import Toasts from './components/ToastsComponent.vue';
-import { keeper, getRndKey } from './composables/utils';
-import { useRoute } from 'vue-router';
-
-const route = useRoute();
 </script>
 
 <style>
@@ -41,10 +36,22 @@ const route = useRoute();
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 
-    font-family: 'Inter var', ui-sans-serif, system-ui, -apple-system,
-        BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial,
-        'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
-        'Segoe UI Symbol', 'Noto Color Emoji';
+    font-family:
+        'Inter var',
+        ui-sans-serif,
+        system-ui,
+        -apple-system,
+        BlinkMacSystemFont,
+        'Segoe UI',
+        Roboto,
+        'Helvetica Neue',
+        Arial,
+        'Noto Sans',
+        sans-serif,
+        'Apple Color Emoji',
+        'Segoe UI Emoji',
+        'Segoe UI Symbol',
+        'Noto Color Emoji';
 }
 
 input:autofill {

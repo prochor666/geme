@@ -1,5 +1,3 @@
-import { load } from '../composables/useConfig';
-
 const prefix = 'geme';
 
 export const asleep = async (ms) => {
@@ -59,7 +57,6 @@ export const mergeObject = (origin, updater) => {
 };
 
 export const keeper = (key, value = undefined) => {
-    const config = load();
     const safeKey = `${prefix}_${key}`;
     const storageEngine = localStorage;
 
@@ -71,7 +68,6 @@ export const keeper = (key, value = undefined) => {
 };
 
 export const keeperRemove = (key, valueIf = undefined) => {
-    const config = load();
     const safeKey = `${prefix}_${key}`;
     const storageEngine = localStorage;
 

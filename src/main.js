@@ -4,7 +4,7 @@ import dayjs from 'dayjs';
 import Notifications from 'notiwind';
 import { load } from './composables/useConfig';
 import App from './App.vue';
-import Dashboard from './pages/DashboardView.vue';
+import ImageEditor from './pages/ImageEditor.vue';
 import './index.css';
 
 const config = load();
@@ -12,8 +12,8 @@ const config = load();
 const routes = [
     {
         path: '/',
-        component: Dashboard,
-        name: 'dashboard',
+        component: ImageEditor,
+        name: 'editor',
     },
 ];
 

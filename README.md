@@ -1,4 +1,4 @@
-# Templating frontend (formerly package TPLUI)
+# Meme generator
 
 Vue 3 + Vite + Tailwind + Material design icons UI stack
 
@@ -15,11 +15,11 @@ Install Node.js, follow the instructions for your OS from the link bellow:
 Clone this repository of course:
 
 ```shell
-git clone git@ssh.dev.azure.com:v3/SOFTINO/CRD_TEMPLATING/crd_templating_fe
+git clone git@github.com:prochor666/geme.git
 ```
 
 ```shell
-cd crd_templating_fe
+cd geme
 ```
 
 ```shell
